@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Go Travel</string>
+    <string name="autocomplete_hint_origin">Origin</string>
+    <string name="autocomplete_hint_destination">Destination</string>
+    <string name="button_search">Search</string>
+    <string name="rome2rio_url">http://free.rome2rio.com/api/1.2/json/Search</string>
+    <string name="rome2rio_key">KQlGErVa</string>
+    <string name="title_agency">Agency</string>
+    <string name="title_frequency">Frequency</string>
+    <string name="title_duration">Duration</string>
+    <string name="title_distance">Distance</string>
+
+    <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
+   Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s&lt;br/&gt;Lat: %6$s&lt;br/&gt;Long: %7$s</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_rest">RestActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="hello"><![CDATA[<b>The Awesome Sliding Up Panel</b><br/> Brought to you by<br/><a href="http://umanoapp.com">http://umanoapp.com</a>]]></string>
+    <string name="follow"><![CDATA[Follow us<br/>on <a href="http://twitter.com/umanoapp">Twitter</a>]]></string>
+    <string name="about"><![CDATA[<font color="white"><b>GoTravel App</b><br/> GoTravel app is developed to satisfy the Final Year Project requirement of diploma student of Universiti Kuala Lumpur  </font>]]></string>
+    <string name="developer"><![CDATA[<font color="white"><b>Developed By : </b><br>Khairil Anuar Bin Sharif<br>52130313048 <br>Muhammad Hanif Bin Mohd Nazam<br>52130313047</font>]]></string>
+    <string name="supervisor"><![CDATA[<font color="white"><b>Supervised By : </b><br>Madam Shahidatul Arfah Binti Baharudin<br></font>]]></string>
+
+
+    <string name="title_activity_place">Point of Interest</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>amusement_park</item>
+        <item>aquarium</item>
+        <item>art_gallery</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>beauty_salon</item>
+        <item>bus_station</item>
+        <item>campground</item>
+        <item>casino</item>
+        <item>car_rental</item>
+        <item>church</item>
+        <item>city_hall</item>
+        <item>dentist</item>
+        <item>doctor</item>
+        <item>embassy</item>
+        <item>gas_station</item>
+        <item>grocery_or_supermarket</item>
+        <item>hospital</item>
+        <item>lodging</item>
+        <item>meal_delivery</item>
+        <item>mosque</item>
+        <item>movie_rental</item>
+        <item>movie_theater</item>
+        <item>museum</item>
+        <item>night_club</item>
+        <item>parking</item>
+        <item>pharmacy</item>
+        <item>police</item>
+        <item>post_office</item>
+        <item>restaurant</item>
+        <item>school</item>
+        <item>shopping_mall</item>
+        <item>spa</item>
+        <item>stadium</item>
+        <item>subway_station</item>
+        <item>taxi_stand</item>
+        <item>train_station</item>
+        <item>travel_agency</item>
+        <item>university</item>
+        <item>zoo</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>Amusement Park</item>
+        <item>Aquarium</item>
+        <item>Art Gallery</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Beauty Salon</item>
+        <item>Bus Station</item>
+        <item>Camp Ground</item>
+        <item>Casino</item>
+        <item>Car Rental</item>
+        <item>Church</item>
+        <item>City Hall</item>
+        <item>Dentist</item>
+        <item>Doctor</item>
+        <item>Embassy</item>
+        <item>Gas Station</item>
+        <item>Grocery/Supermarket</item>
+        <item>Hospital</item>
+        <item>Lodging</item>
+        <item>Meal Delivery</item>
+        <item>Mosque</item>
+        <item>Movie Rental</item>
+        <item>Movie Theater</item>
+        <item>Museum</item>
+        <item>Night Club</item>
+        <item>Parking</item>
+        <item>Pharmacy</item>
+        <item>Police</item>
+        <item>Post Office</item>
+        <item>Restaurant</item>
+        <item>School</item>
+        <item>Shopping Mall</item>
+        <item>Spa</item>
+        <item>Stadium</item>
+        <item>Subway Station</item>
+        <item>Taxi Stand</item>
+        <item>Train Station</item>
+        <item>Travel Agency</item>
+        <item>University</item>
+        <item>Zoo</item>
+    </string-array>
+    <string name="title_activity_about">About</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_pdf_view">PdfViewActivity</string>
+
+
+</resources>

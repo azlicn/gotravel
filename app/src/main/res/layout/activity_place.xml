@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context="my.edu.unikl.gotravel.PlaceActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/place_map"
+        tools:context=".PlaceActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Spinner
+                android:id="@+id/spinner_place_type"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:id="@+id/btn_find"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                style="?metaButtonBarButtonStyle"
+                android:layout_weight="1"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/spinner_place_type"
+                android:text="Find" />
+
+            <Button
+                android:id="@+id/btn_type"
+                android:layout_width="0dp" android:layout_height="wrap_content" style="?metaButtonBarButtonStyle"
+                android:layout_weight="1"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/btn_find"
+                android:text="Tyoe" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+   <!-- <android.support.design.widget.FloatingActionButton android:id="@+id/pdf_fab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_share" />-->
+
+</FrameLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.edu.unikl.gotravel.MapActivity">
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/detail_train_list"
+        android:scrollbars="vertical"
+        android:layout_gravity="fill_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="0"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView
+                android:text="@string/title_agency"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="3dip" />
+            <TextView
+                android:text="@string/title_frequency"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="3dip" />
+            <TextView
+                android:text="@string/title_duration"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/train_agency"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/train_frequency"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/train_duration"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/line_agency"
+                android:layout_span="3"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/schedule_agency"
+                android:layout_span="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:textColor="#000000"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
