@@ -23,11 +23,9 @@
     <string name="action_show">Show Panel</string>
     <string name="action_anchor_enable">Enable Anchor Point</string>
     <string name="action_anchor_disable">Disable Anchor Point</string>
-    <string name="hello"><![CDATA[<b>The Awesome Sliding Up Panel</b><br/> Brought to you by<br/><a href="http://umanoapp.com">http://umanoapp.com</a>]]></string>
-    <string name="follow"><![CDATA[Follow us<br/>on <a href="http://twitter.com/umanoapp">Twitter</a>]]></string>
-    <string name="about"><![CDATA[<font color="white"><b>GoTravel App</b><br/> GoTravel app is developed to satisfy the Final Year Project requirement of diploma student of Universiti Kuala Lumpur  </font>]]></string>
-    <string name="developer"><![CDATA[<font color="white"><b>Developed By : </b><br>Khairil Anuar Bin Sharif<br>52130313048 <br>Muhammad Hanif Bin Mohd Nazam<br>52130313047</font>]]></string>
-    <string name="supervisor"><![CDATA[<font color="white"><b>Supervised By : </b><br>Madam Shahidatul Arfah Binti Baharudin<br></font>]]></string>
+    <string name="about"><![CDATA[<font color="white"><b>GoTravel App</b></font>]]></string>
+    <string name="developer"><![CDATA[<font color="white"></font>]]></string>
+    <string name="supervisor"><![CDATA[<font color="white"></font>]]></string>
 
 
     <string name="title_activity_place">Point of Interest</string>
