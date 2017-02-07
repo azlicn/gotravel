@@ -39,7 +39,7 @@ public class SearchResultActivity extends AppCompatActivity {
 
     private String URL;// = this.getResources().getString(R.string.rome2rio_url); //"http://free.rome2rio.com/api/1.2/json/Search";
 
-    private String ROME2RIO_KEY;// = this.getResources().getString(R.string.rome2rio_key);//"KQlGErVa";
+    private String ROME2RIO_KEY;// = this.getResources().getString(R.string.rome2rio_key);
 
     private Gson gson = new Gson();
 

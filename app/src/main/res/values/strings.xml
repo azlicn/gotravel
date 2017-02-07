@@ -4,7 +4,7 @@
     <string name="autocomplete_hint_destination">Destination</string>
     <string name="button_search">Search</string>
     <string name="rome2rio_url">http://free.rome2rio.com/api/1.2/json/Search</string>
-    <string name="rome2rio_key">KQlGErVa</string>
+    <string name="rome2rio_key"></string>
     <string name="title_agency">Agency</string>
     <string name="title_frequency">Frequency</string>
     <string name="title_duration">Duration</string>
